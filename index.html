@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">  
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+<body>
+  <header class="header">
+    <h1>Fylo data storage</h1>
+  </header>
+  <main class="container">
+    <section class="left">
+        <figure>
+          <img src="./images/logo.svg" alt="">
+        </figure>
+        <nav class="navbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="#" class="nav-link"><img src="./images/icon-document.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><img src="./images/icon-folder.svg" alt=""></a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link"><img src="./images/icon-upload.svg" alt=""></a>
+            </li>
+          </ul>
+        </nav>
+    </section>
+    <section class="right">
+      <div class="storage-left-absolute">185 <span>GB Left</span></div>
+      <label for="storage-used" class="storage-title">
+        You’ve used <span>815 GB</span> of your storage
+        <div class="range-container">
+          <div class="range-bar"></div>
+          <input type="range" name="storage-used" id="storage-used" min="0" max="1000" value="815" step="5" disabled>
+        </div>
+        <div class="storage-range">
+          <p class="storage-range-from"><span>0</span> GB</p>
+          <p class="storage-range-to"><span>1000</span> GB</p>
+        </div>
+       </label>
+    </section>
+  </main>
+ 
+<script src="./script.js"></script>
+</body>
+</html>
