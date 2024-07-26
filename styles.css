@@ -6,6 +6,7 @@
     --Grayish-Blue: hsl(229, 7%, 55%);
     --Dark-Blue: hsl(228, 56%, 26%);
     --Very-Dark-Blue: hsl(229, 57%, 11%);
+    --White: hsl(0, 0%, 100%);
 }
 *, *::after, *::before{
     margin: 0;
@@ -99,7 +100,7 @@ a{
     font-size: 2.2rem;
 
     border-radius: 10px 10px 0 10px;
-    background-color: var(--Pale-Blue);
+    background-color: var(--White);
     color: var(--Very-Dark-Blue);
 
     display: flex;
